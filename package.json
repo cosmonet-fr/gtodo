@@ -1,0 +1,29 @@
+{
+  "name": "gtodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmonet-fr/gtodo.git"
+  },
+  "author": "Stéphane BILLOIS",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/cosmonet-fr/gtodo/issues"
+  },
+  "homepage": "https://github.com/cosmonet-fr/gtodo#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http": "0.0.1-security",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.1"
+  }
+}
